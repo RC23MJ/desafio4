@@ -1,0 +1,121 @@
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+}
+
+.card img{
+    height: 250px;
+}
+
+.navbar-brand {
+    font-size: 50px;
+    text-decoration: none;
+    color: #ddd;
+}
+
+.section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+
+/* Venta propiedades */
+.venta {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.ventas {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.ventas:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.ventas img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.ventas h5 {
+    font-size: 1.2em;
+    margin: 16px 0 8px;
+    color: #333;
+}
+
+.ventas p {
+    font-size: 1em;
+    margin: 8px 0;
+    color: #555;
+}
+
+/* Alquiler propiedades */
+
+.alquiler {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.alquileres {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 16px;
+    margin: 16px;
+    width: 300px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.alquileres:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.alquileres img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0 0;
+}
+
+.alquileres h5 {
+    font-size: 1.2em;
+    margin: 16px 0 8px;
+    color: #333;
+}
+
+.alquileres p {
+    font-size: 1em;
+    margin: 8px 0;
+    color: #555;
+}
